@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
   
   while array[counter] do
     if array[counter] == value_to_find
-      return array.index()
+      return array[counter].index()
     else
       return nil
     end
